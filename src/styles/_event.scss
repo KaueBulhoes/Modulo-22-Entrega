@@ -3,26 +3,8 @@
 .event {
     padding: 80px 0;
 
-    &--frontend {
-        background-image: linear-gradient(180deg, variables.$blue1, variables.$blue2);
-    }
-
-    &--ui-ux {
-        background-image: linear-gradient(180deg, variables.$blue2, variables.$pink);
-    }
-
-    &--data-science {
-        background-image: linear-gradient(180deg, variables.$pink, variables.$yellow);
-    }
-
-    &--backend {
-        background-image: linear-gradient(180deg, variables.$yellow, variables.$pink);
-    }
-
-    &--image-left{
-        .container{
-            flex-direction: row-reverse;
-        }
+    &--curtir {
+        background-image: linear-gradient(180deg, variables.$pink, variables.$purple);
     }
 
     .container {
@@ -32,6 +14,7 @@
 
     img {
         max-width: 360px;
+        border-radius: 25%;
     }
 
     &__details {
