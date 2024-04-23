@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js --no-cache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
     "parcel": "^2.12.0",
     "parcel-bundler": "^1.12.5",
     "sharp": "^0.31.3"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.11"
   }
 }
